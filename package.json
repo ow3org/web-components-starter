@@ -1,0 +1,70 @@
+{
+  "name": "vue-wc-library-starter",
+  "version": "0.0.0",
+  "description": "The easiest way to ensure your media/data is always displayed quickly, securely and at the highest quality possible.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "vitebook:dev": "vitebook dev",
+    "vitebook:build": "vitebook build",
+    "vitebook:preview": "vitebook preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "vue": "^3.2.32"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@rushstack/eslint-patch": "^1.1.3",
+    "@vitebook/client": "^0.23.5",
+    "@vitebook/core": "^0.23.5",
+    "@vitebook/markdown-vue": "^0.23.5",
+    "@vitebook/theme-default": "^0.23.5",
+    "@vitebook/vue": "^0.23.5",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/compiler-sfc": "^3.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vite-plugin-eslint": "^1.3.0",
+    "vitest": "^0.9.3",
+    "vue-loader": "^16.5.0",
+    "vue-tsc": "^0.34.6"
+  },
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": "=14.*"
+  },
+  "contributors": [
+    "Chris Breuer <chris@meema.xyz>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meemalabs/vue-wc-library-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meemalabs/vue-wc-library-starter/issues"
+  },
+  "keywords": [
+    "web-components",
+    "component",
+    "library",
+    "vue",
+    "typescript",
+    "javascript"
+  ]
+}
