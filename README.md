@@ -17,12 +17,13 @@ Before you get started, it's is important to understand what a Web Component is.
 
 ## 💡 Get Started
 
-It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out
+It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out the index.html and how the `HelloWorld`-component is defined within this repo. Feel free to create any component.
+
+The `package.json` contains some useful snippets but ones you need to be aware of:
 
 ```bash
-yarn dev # starts the local server & watcher
+yarn dev # starts the local server at http://localhost:3000/ & watches for changes
 yarn build # builds the library
-
 ```
 
 ## 🖥️ Browsers
