@@ -6,9 +6,24 @@
 
 How does this work? First, it's is important to understand what a Web Component is. Think of a (custom) HTML element. That being said, this is an opinionated starter kit to help you expedite the development of your component library.
 
-## 💡 Usage
+### Tech Stack
 
-wip
+- TypeScript
+- Vue 3.2 - write your Web Components the same way you would write your SFCs
+- Vitest - a fast A Vite-native test framework
+- eslint & Prettier - lint & format your code efficiently without the mental overhead
+- GitHub Actions - to automatically commit code style fixes & tag releases
+- Vitebook - an OS Storybook alternative
+
+## 💡 Get Started
+
+It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out
+
+```bash
+yarn dev # starts the local server & watcher
+yarn build # builds the library
+
+```
 
 ## 🖥️ Browsers
 
