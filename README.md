@@ -2,11 +2,11 @@
 
 "Why create components for a specific framework when it can be written to be understood by all — including browsers?"
 
-## Introduction
+## 👋🏼 Introduction
 
-How does this work? First, it's is important to understand what a Web Component is. Think of a (custom) HTML element. That being said, this is an opinionated starter kit to help you expedite the development of your component library.
+Before you get started, it's is important to understand what a Web Component is. Think of it as a (custom) HTML element. That being said, this is an opinionated starter kit to help you expedite the development of your component library.
 
-### Tech Stack
+### 👩🏽‍💻 Tech Stack
 
 - TypeScript
 - Vue 3.2 - write your Web Components the same way you would write your SFCs
