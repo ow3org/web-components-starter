@@ -47,7 +47,7 @@
   },
   "engines": {
     "npm": ">=6.0.0",
-    "node": "=14.*"
+    "node": ">=14.*"
   },
   "contributors": [
     "Chris Breuer <chris@meema.xyz>"
