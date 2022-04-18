@@ -1,23 +1,27 @@
-<template>
-  <h1 class="text-xl text-red-900">Hello World</h1>
-  <img class="h-128 w-12" :src="url" />
-</template>
-
 <script setup lang="ts">
-import { computed, onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 
-// interface Props {
-//   src: string;
-// }
+interface Props {
+  title: string;
+}
 
-// const props = defineProps<Props>();
+const props = defineProps<Props>();
 
-const url = computed(
-  () =>
-    `https://images.pexels.com/photos/11039600/pexels-photo-11039600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260`
-);
+// reactive state
+const count = ref(0);
 
+// functions that mutate state and trigger updates
+function increment() {
+  count.value++;
+}
+
+// lifecycle hooks
 onMounted(() => {
-  console.log('url', url.value);
+  console.log(`The initial count is ${count.value}.`);
 });
 </script>
+
+<template>
+  <h1 class="text-3xl font-bold underline">{{ props.title }}</h1>
+  <button @click="increment">Count is: {{ count }}</button>
+</template>

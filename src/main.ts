@@ -8,8 +8,8 @@ import './styles/index.css';
 const HelloWorldCustomElement = defineCustomElement(HelloWorld);
 
 // export individual elements
-// export { HelloWorldV2CustomElement, TableV2CustomElement };
+// export { HelloWorldCustomElement, AnotherCustomElement };
 
 // export function register() {
-customElements.define('HelloWorld', HelloWorldCustomElement);
+customElements.define('hello-world', HelloWorldCustomElement);
 // }
