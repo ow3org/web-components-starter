@@ -24,7 +24,7 @@ const config: UserConfig = {
     Vue({
       script: {
         reactivityTransform: true // https://vuejs.org/guide/extras/reactivity-transform.html
-      },
+      reactivityTransform: true, // https://vuejs.org/guide/extras/reactivity-transform.html
       template: {
         compilerOptions: {
           // treat all tags with a dash as custom elements
