@@ -17,7 +17,15 @@ module.exports = {
     'no-var': 'error',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'comma-dangle': ['error', 'only-multiline']
+    'comma-dangle': ['error', 'only-multiline'],
+    // reactivity transform
+    'vue/no-setup-props-destructure': 'off',
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['script', 'template', 'style']
+      }
+    ]
   },
   globals: {
     defineProps: 'readonly',
