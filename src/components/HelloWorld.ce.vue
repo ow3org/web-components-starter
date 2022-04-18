@@ -21,6 +21,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">{{ props.title }}</h1>
+  <h1 class="text-3xl font-bold text-red-800">
+    {{ props.title }}
+  </h1>
   <button @click="increment">Count is: {{ count }}</button>
 </template>
+
+<style scoped>
+@import '../styles/index.css';
+</style>

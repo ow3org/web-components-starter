@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "typecheck && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "vitebook:dev": "vitebook dev",
     "vitebook:build": "vitebook build",
@@ -41,6 +41,7 @@
     "eslint-plugin-vue": "^8.6.0",
     "pnpm": "^6.32.8",
     "postcss": "^8.3.6",
+    "postcss-import": "^14.1.0",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.8",
     "svelte": "^3.47.0",
