@@ -1,8 +1,8 @@
 /// <reference types="vitest" />
 import { resolve } from 'path';
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import eslintPlugin from 'vite-plugin-eslint';
+import { UserConfig } from 'vite';
+import Vue from '@vitejs/plugin-vue';
+import EslintPlugin from 'vite-plugin-eslint';
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import pkg from './package.json';
@@ -13,9 +13,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // https://vitejs.dev/config/
-export default defineConfig({
+const config: UserConfig = {
   plugins: [
-    vue({
+    Vue({
       script: {
         refSugar: true // https://github.com/vuejs/rfcs/discussions/369
       },
@@ -26,7 +26,7 @@ export default defineConfig({
         }
       }
     }),
-    eslintPlugin(),
+    EslintPlugin(),
     AutoImport({
       imports: [
         'vue',
@@ -53,4 +53,6 @@ export default defineConfig({
   test: {
     include: ['tests/unit/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}']
   }
-});
+};
+
+export default config;
