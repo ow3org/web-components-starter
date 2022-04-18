@@ -6,14 +6,29 @@
 
 Before you get started, it's is important to understand what a Web Component is. Think of it as a (custom) HTML element. That being said, this is an opinionated starter kit to help you expedite the development of your component library.
 
-### 👩🏽‍💻 Tech Stack
+### 👩🏽‍💻 Dev Tools
 
-- TypeScript
-- Vue - write your Web Components the same way you would write your SFCs
-- Vitest - a fast A Vite-native test framework
-- ESLint & Prettier - lint & format your code efficiently without the mental overhead
-- GitHub Actions - to automatically commit code style fixes & tag releases
-- Vitebook - an OS Storybook alternative
+- [TypeScript 4.6](https://www.typescriptlang.org/)
+- [Vue 3.2](https://vuejs.org/) - write Web Components the same way you would write SFCs
+- [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
+- [Prettier](https://prettier.io/) - Opinionated code formatting
+- [GitHub Actions](https://vitebook.dev) - Commit code style fixes automatically, tag releases, and run the test suite
+- [VS Code Extensions](./.vscode/extensions.json)
+  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Statically analyzes your code to quickly find problems
+
+### Plugins
+
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
+- [VueUse](https://github.com/antfu/vueuse) - Collection of useful composition APIs
+- [Vitebook](https://vitebook.dev) - A modern open source Storybook alternative
+
+### Coding Style
+
+- Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
+- [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
 
 ## 💡 Get Started
 

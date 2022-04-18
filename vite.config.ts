@@ -17,7 +17,7 @@ const config: UserConfig = {
   plugins: [
     Vue({
       script: {
-        refSugar: true // https://github.com/vuejs/rfcs/discussions/369
+        reactivityTransform: true // https://vuejs.org/guide/extras/reactivity-transform.html
       },
       template: {
         compilerOptions: {
@@ -28,13 +28,7 @@ const config: UserConfig = {
     }),
     EslintPlugin(),
     AutoImport({
-      imports: [
-        'vue',
-        'pinia',
-        {
-          '@/store': ['useStore']
-        }
-      ],
+      imports: ['vue'],
       dts: 'src/auto-imports.d.ts',
       eslintrc: {
         enabled: true
