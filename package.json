@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "typecheck && vite build",
     "preview": "vite preview",
     "vitebook:dev": "vitebook dev",
     "vitebook:build": "vitebook build",
@@ -15,7 +15,8 @@
     "fix-code-style": "lint && format",
     "test": "vitest",
     "test:ci": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
     "vue": "^3.2.32",
