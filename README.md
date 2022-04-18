@@ -9,9 +9,9 @@ Before you get started, it's is important to understand what a Web Component is.
 ### 👩🏽‍💻 Tech Stack
 
 - TypeScript
-- Vue 3.2 - write your Web Components the same way you would write your SFCs
+- Vue - write your Web Components the same way you would write your SFCs
 - Vitest - a fast A Vite-native test framework
-- eslint & Prettier - lint & format your code efficiently without the mental overhead
+- ESLint & Prettier - lint & format your code efficiently without the mental overhead
 - GitHub Actions - to automatically commit code style fixes & tag releases
 - Vitebook - an OS Storybook alternative
 
@@ -19,7 +19,7 @@ Before you get started, it's is important to understand what a Web Component is.
 
 It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out the index.html and how the `HelloWorld`-component is defined within this repo. Feel free to create any component.
 
-The `package.json` contains some useful snippets but ones you need to be aware of:
+The `package.json` contains some useful snippets but ones you need to be aware of are:
 
 ```bash
 yarn dev # starts the local server at http://localhost:3000/ & watches for changes
