@@ -36,12 +36,19 @@ Before you get started, it's is important to understand what a Web Component is.
 
 It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out the index.html and how the `HelloWorld`-component is defined within this repo. Feel free to create any component.
 
-Additionally, the `package.json` contains some useful snippets but ones you need to be aware of are:
-
 ```bash
-yarn dev # starts the local server at http://localhost:3000/ & watches for changes
-yarn build # builds the library
+npx degit meemalabs/web-components-library-starter my-wc-library
+cd my-wc-library
+pnpm i # if you don't have pnpm installed, run `npm install -g pnpm`
+
+# starts the local server at http://localhost:3000/ & watches for changes
+pnpm dev
+
+# builds the library for production-ready use
+pnpm build
 ```
+
+Additionally, the `package.json` contains some useful snippets you likely want to be aware of.
 
 ## 🖥️ Browsers
 
