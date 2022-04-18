@@ -28,7 +28,7 @@ const config: UserConfig = {
     }),
     EslintPlugin(),
     AutoImport({
-      imports: ['vue'],
+      imports: ['vue', 'vue/macros', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
       eslintrc: {
         enabled: true
