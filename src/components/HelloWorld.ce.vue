@@ -24,7 +24,13 @@ onMounted(() => {
   <h1 class="text-3xl font-bold text-red-800">
     {{ props.title }}
   </h1>
-  <button @click="increment">Count is: {{ count }}</button>
+  <button
+    type="button"
+    class="inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+    @click="increment"
+  >
+    Count is: {{ count }}
+  </button>
 </template>
 
 <style scoped>
