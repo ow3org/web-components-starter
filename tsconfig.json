@@ -16,16 +16,12 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
-    "plugins": [
-      {
-        "name": "@vuedx/typescript-plugin-vue"
-      }
-    ],
     "types": [
-      "vite/client"
+      "vite/client",
+      "vue/ref-macros",
     ],
     "paths": {
-      "@/*": [
+      "~/*": [
         "src/*"
       ]
     },
