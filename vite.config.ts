@@ -22,8 +22,6 @@ const config: UserConfig = {
 
   plugins: [
     Vue({
-      script: {
-        reactivityTransform: true // https://vuejs.org/guide/extras/reactivity-transform.html
       reactivityTransform: true, // https://vuejs.org/guide/extras/reactivity-transform.html
       template: {
         compilerOptions: {
