@@ -1,4 +1,15 @@
 {
+  "cSpell.words": [
+    "Vitesse",
+    "Vite",
+    "vitest",
+    "vueuse",
+    "demi",
+    "antfu",
+    "vitejs",
+    "unplugin",
+    "pnpm"
+  ],
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
