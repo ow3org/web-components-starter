@@ -2,7 +2,7 @@ import { defineCustomElement } from 'vue';
 import HelloWorld from './components/HelloWorld.ce.vue';
 import './styles/index.postcss';
 
-// console.log('HelloWorld.styles', HelloWorld.styles); // ["/* inlined css */"]
+console.log('HelloWorld.styles', HelloWorld.styles); // ["/* inlined css */"]
 // convert into custom element constructor
 const HelloWorldCustomElement = defineCustomElement(HelloWorld);
 

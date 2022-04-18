@@ -11,8 +11,10 @@
     "vitebook:build": "vitebook build",
     "vitebook:preview": "vitebook preview",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier .  --write",
+    "format": "prettier . --write",
+    "fix-code-style": "lint && format",
     "test": "vitest",
+    "test:ci": "vitest",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
