@@ -14,6 +14,12 @@ if (process.env.NODE_ENV === 'production') {
 
 // https://vitejs.dev/config/
 const config: UserConfig = {
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, '/src')
+    }
+  },
+
   plugins: [
     Vue({
       script: {
@@ -26,7 +32,10 @@ const config: UserConfig = {
         }
       }
     }),
+
     EslintPlugin(),
+
+    // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       imports: ['vue', 'vue/macros', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
@@ -34,18 +43,21 @@ const config: UserConfig = {
         enabled: true
       }
     }),
+
+    // https://github.com/antfu/unplugin-vue-components
     Components({
       dirs: ['src/components'],
-      extensions: ['vue']
+      extensions: ['vue'],
+      dts: 'src/components.d.ts'
     })
   ],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, '/src')
-    }
-  },
+
   test: {
-    include: ['tests/unit/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}']
+    include: ['test/**/*.test.ts'],
+    environment: 'jsdom',
+    deps: {
+      inline: ['@vue', '@vueuse', 'vue-demi']
+    }
   }
 };
 
