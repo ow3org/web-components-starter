@@ -11,7 +11,6 @@ Before you get started, it's is important to understand what a Web Component is.
 - [TypeScript 4.6](https://www.typescriptlang.org/)
 - [Vue 3.2](https://vuejs.org/) - write Web Components the same way you would write SFCs
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
-- [Prettier](https://prettier.io/) - Opinionated code formatting
 - [GitHub Actions](https://vitebook.dev) - Commit code style fixes automatically, tag releases, and run the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
@@ -28,13 +27,15 @@ Before you get started, it's is important to understand what a Web Component is.
 ### Coding Style
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
-- [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
+  - [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
+- [ESLint](https://eslint.org/) - statically analyzes your code to quickly find problems
+- [Prettier](https://prettier.io/) - Opinionated code formatting
 
 ## 💡 Get Started
 
 It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out the index.html and how the `HelloWorld`-component is defined within this repo. Feel free to create any component.
 
-The `package.json` contains some useful snippets but ones you need to be aware of are:
+Additionally, the `package.json` contains some useful snippets but ones you need to be aware of are:
 
 ```bash
 yarn dev # starts the local server at http://localhost:3000/ & watches for changes
