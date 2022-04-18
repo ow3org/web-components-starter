@@ -6,7 +6,7 @@ interface Props {
 const props = defineProps<Props>();
 
 // reactive state
-const count = $ref(0);
+let count = $ref(0);
 
 // functions that mutate state and trigger updates
 function increment() {
@@ -16,7 +16,7 @@ function increment() {
 // lifecycle hooks
 onMounted(() => {
   console.log(`The initial count is ${count}.`);
-  console.log(`props is`, props);
+  console.log(`title is`, props.title);
 });
 </script>
 
