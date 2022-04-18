@@ -2,16 +2,27 @@
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
+  root: true,
   env: {
     node: true
   },
   extends: [
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-typescript/recommended',
-    '@vue/eslint-config-prettier'
+    'plugin:security/recommended',
+    '@vue/eslint-config-prettier',
+    './.eslintrc-auto-import.json'
   ],
   rules: {
-    // override/add rules settings here, such as:
-    // 'vue/no-unused-vars': 'error'
+    'no-var': 'error',
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'comma-dangle': ['error', 'only-multiline']
+  },
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly'
   }
 };

@@ -9,12 +9,18 @@
     "resolveJsonModule": true,
     "importHelpers": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "@vuedx/typescript-plugin-vue"
+      }
+    ],
     "types": [
       "vite/client"
     ],

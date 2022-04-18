@@ -50,7 +50,7 @@ yarn test
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/meemalabs/vue-wc-library-starter/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/meemalabs/web-components-library-starter/releases) page for more information on what has changed recently.
 
 ## 💪🏼 Contributing
 
@@ -60,7 +60,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/meemalabs/vue-wc-library-starter/discussions)
+[Discussions on GitHub](https://github.com/meemalabs/web-components-library-starter/discussions)
 
 For casual chit-chat with others using this package:
 

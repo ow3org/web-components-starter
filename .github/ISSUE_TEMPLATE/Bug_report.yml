@@ -5,7 +5,7 @@ body:
   - type: input
     attributes:
       label: Package version
-      description: "Please provide the full version of vue-wc-library-starter that you're experiencing the bug with."
+      description: "Please provide the full version of web-components-library-starter that you're experiencing the bug with."
       placeholder: 'v1.2.3'
     validations:
       required: true

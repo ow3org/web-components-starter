@@ -32,14 +32,14 @@ Please view the README and the instructions below on how to install the project 
 **Working on your first Pull Request?** You can learn how from this free series
 [How to Contribute to an Open Source Project on GitHub][pr-beginner-series].
 
-Head over to the [repository][vue-wc-library-starter] on GitHub and click the Fork button in the top
+Head over to the [repository][web-components-library-starter] on GitHub and click the Fork button in the top
 right corner. After the project has been forked, run the following commands in your terminal:
 
 ```bash
 # Replace {github-username} with your GitHub username.
-$: git clone https://github.com/{github-username}/vue-wc-library-starter --depth=1
+$: git clone https://github.com/{github-username}/web-components-library-starter --depth=1
 
-$: cd vue-wc-library-starter
+$: cd web-components-library-starter
 
 # Create a branch for your PR, replace {issue-no} with the GitHub issue number.
 $: git checkout -b issue-{issue-no}
@@ -50,7 +50,7 @@ pull requests from the forked branch.
 
 ```bash
 # Add the original repository as a "remote" called "upstream".
-$: git remote add upstream git@github.com:meemalabs/vue-wc-library-starter.git
+$: git remote add upstream git@github.com:meemalabs/web-components-library-starter.git
 
 # Fetch the git information from the remote.
 $: git fetch upstream
@@ -93,7 +93,7 @@ $: git push
 
 ## 🎉 Pull Request
 
-When you're all done head over to the [repository][vue-wc-library-starter], and click the big green
+When you're all done head over to the [repository][web-components-library-starter], and click the big green
 `Compare & Pull Request` button that should appear after you've pushed changes to your fork.
 
 Don't expect your PR to be accepted immediately or even accepted at all. Give the community time to
@@ -104,6 +104,6 @@ contribution is appreciated more than you can imagine, and even a failed PR can 
 [vitebook]: https://vitebook.dev/
 [vue]: https://v3.vuejs.org/
 [web-components]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
-[vue-wc-library-starter]: https://github.com/meemalabs/vue-wc-library-starter
+[web-components-library-starter]: https://github.com/meemalabs/web-components-library-starter
 [semantic-commit-style]: https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 [pr-beginner-series]: https://app.egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
