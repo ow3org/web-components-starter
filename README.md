@@ -11,20 +11,21 @@ Before you get started, it's is important to understand what a Web Component is.
 - [TypeScript 4.6](https://www.typescriptlang.org/)
 - [Vue 3.2](https://vuejs.org/) - write Web Components the same way you would write SFCs
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
+- [Tailwind CSS](https://tailwindcss.com/) - create your own style guide with ease
 - [GitHub Actions](https://vitebook.dev) - Commit code style fixes automatically, tag releases, and run the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Statically analyzes your code to quickly find problems
 
-### Plugins
+### 🧩 Plugins
 
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [VueUse](https://github.com/antfu/vueuse) - Collection of useful composition APIs
 - [Vitebook](https://vitebook.dev) - A modern open source Storybook alternative
 
-### Coding Style
+### 🥰 Coding Style
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
   - [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
