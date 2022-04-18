@@ -1,6 +1,6 @@
 <template>
-  <h1>Hello World</h1>
-  <img :src="url" />
+  <h1 class="text-xl text-red-900">Hello World</h1>
+  <img class="h-128 w-12" :src="url" />
 </template>
 
 <script setup lang="ts">
