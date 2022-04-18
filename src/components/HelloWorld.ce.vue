@@ -16,7 +16,7 @@ function increment() {
 // lifecycle hooks
 onMounted(() => {
   console.log(`The initial count is ${count}.`);
-  console.log(`title is`, props.title);
+  console.log(`The title is ${props.title}.`);
 });
 </script>
 
