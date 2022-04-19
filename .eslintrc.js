@@ -1,5 +1,5 @@
 /* eslint-env node */
-require('@rushstack/eslint-patch/modern-module-resolution');
+require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
@@ -14,6 +14,9 @@ module.exports = {
     './.eslintrc-auto-import.json'
   ],
   rules: {
+    semi: ['error', 'never'],
+    curly: ['error', 'multi-or-nest', 'consistent'],
+    quotes: ['error', 'single'],
     'no-var': 'error',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -33,4 +36,4 @@ module.exports = {
     defineExpose: 'readonly',
     withDefaults: 'readonly'
   }
-};
+}

@@ -1,4 +1,4 @@
-name: js-cs-fixer
+name: JS-CS-Fixer
 
 on: [push, pull_request]
 
@@ -46,7 +46,7 @@ jobs:
           git checkout -B "${{ env.FIXER_BRANCH }}"
 
       - name: Apply auto-fixers
-        run: yarn format
+        run: yarn lint:fix
 
       - name: Create Fixer PR
         run: |
