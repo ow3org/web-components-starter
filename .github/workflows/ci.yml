@@ -23,10 +23,10 @@ jobs:
         uses: pnpm/action-setup@v2.2.1
 
       - name: Set node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: pnpm
+          # cache: pnpm
 
       - name: Install
         run: pnpm install
@@ -43,10 +43,10 @@ jobs:
         uses: pnpm/action-setup@v2.2.1
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
-          cache: pnpm
+          # cache: pnpm
 
       - name: Install dependencies
         run: pnpm install
@@ -94,7 +94,7 @@ jobs:
   #       uses: pnpm/action-setup@v2.2.1
 
   #     - name: Use Node.js ${{ matrix.node-version }}
-  #       uses: actions/setup-node@v2
+  #       uses: actions/setup-node@v3
   #       with:
   #         node-version: ${{ matrix.node-version }}
   #         registry-url: https://registry.npmjs.org/
