@@ -1,5 +1,5 @@
 name: Support question
-description: "Need help with using this package? Ask your question here. Please browse the Discussions for similar questions before."
+description: Need help with using this package? Ask your question here. Please browse the Discussions for similar questions before.
 labels: [question]
 body:
   - type: textarea

@@ -4,10 +4,10 @@ on: [push, pull_request]
 
 env:
   PR_NUMBER: '${{ github.event.number }}'
-  SOURCE_BRANCH: '$GITHUB_HEAD_REF'
-  FIXER_BRANCH: 'auto-fixed/$GITHUB_HEAD_REF'
-  TITLE: 'Apply fixes from JS-CS-Fixer'
-  DESCRIPTION: 'This merge request applies JS code style fixes from an analysis carried out through GitHub Actions.'
+  SOURCE_BRANCH: $GITHUB_HEAD_REF
+  FIXER_BRANCH: auto-fixed/$GITHUB_HEAD_REF
+  TITLE: Apply fixes from JS-CS-Fixer
+  DESCRIPTION: This merge request applies JS code style fixes from an analysis carried out through GitHub Actions.
 
 jobs:
   js-cs-fixer:
@@ -23,7 +23,7 @@ jobs:
       - name: Set up Node & NPM
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: 16.x
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path

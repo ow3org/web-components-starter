@@ -1,21 +1,21 @@
 /// <reference types="vitest" />
-import { resolve } from 'path';
-import { UserConfig } from 'vite';
-import Vue from '@vitejs/plugin-vue';
-import AutoImport from 'unplugin-auto-import/vite';
-import Components from 'unplugin-vue-components/vite';
-import pkg from './package.json';
+import { resolve } from 'path'
+import type { UserConfig } from 'vite'
+import Vue from '@vitejs/plugin-vue'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import pkg from './package.json'
 
-process.env.VITE_APP_VERSION = pkg.version;
+process.env.VITE_APP_VERSION = pkg.version
 if (process.env.NODE_ENV === 'production')
-  process.env.VITE_APP_BUILD_EPOCH = new Date().getTime().toString();
+  process.env.VITE_APP_BUILD_EPOCH = new Date().getTime().toString()
 
 // https://vitejs.dev/config/
 const config: UserConfig = {
   resolve: {
     alias: {
-      '@': resolve(__dirname, '/src')
-    }
+      '~': resolve(__dirname, '/src'),
+    },
   },
 
   plugins: [
@@ -24,9 +24,9 @@ const config: UserConfig = {
       template: {
         compilerOptions: {
           // treat all tags with a dash as custom elements
-          isCustomElement: (tag) => tag.includes('-')
-        }
-      }
+          isCustomElement: tag => tag.includes('-'),
+        },
+      },
     }),
 
     // https://github.com/antfu/unplugin-auto-import
@@ -34,25 +34,25 @@ const config: UserConfig = {
       imports: ['vue', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
       eslintrc: {
-        enabled: true
-      }
+        enabled: true,
+      },
     }),
 
     // https://github.com/antfu/unplugin-vue-components
     Components({
       dirs: ['src/components'],
       extensions: ['vue'],
-      dts: 'src/components.d.ts'
-    })
+      dts: 'src/components.d.ts',
+    }),
   ],
 
   test: {
     include: ['tests/**/*.test.ts'],
     // environment: 'jsdom',
     deps: {
-      inline: ['@vue', '@vueuse', 'vue-demi']
-    }
-  }
-};
+      inline: ['@vue', '@vueuse', 'vue-demi'],
+    },
+  },
+}
 
-export default config;
+export default config

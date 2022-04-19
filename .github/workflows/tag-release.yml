@@ -3,11 +3,11 @@ name: Tag Release
 on:
   push:
     tags:
-      - "*"
+      - '*'
 
 jobs:
   tag-release:
-    name: "Tagged Release"
+    name: Tagged Release
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Create Release
-        uses: "marvinpinto/action-automatic-releases@latest"
+        uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          repo_token: '${{ secrets.GITHUB_TOKEN }}'
           prerelease: false

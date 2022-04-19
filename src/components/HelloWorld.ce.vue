@@ -1,23 +1,25 @@
 <script setup lang="ts">
 interface Props {
-  title: string;
+  title: string
 }
 
-const props = defineProps<Props>();
+const props = defineProps<Props>()
 
 // reactive state
-let count = $ref(0);
+let count = $ref(0)
 
 // functions that mutate state and trigger updates
 function increment() {
-  count++;
+  count++
 }
 
 // lifecycle hooks
 onMounted(() => {
-  console.log(`The initial count is ${count}.`);
-  console.log(`The title is ${props.title}.`);
-});
+  // eslint-disable-next-line no-console
+  console.log(`The initial count is ${count}.`)
+  // eslint-disable-next-line no-console
+  console.log(`The title is ${props.title}.`)
+})
 </script>
 
 <template>

@@ -1,5 +1,5 @@
-name: "\U0001F4A1 Feature request"
-description: "For ideas or feature requests: please make a pull request or open an issue."
+name: 💡 Feature request
+description: 'For ideas or feature requests: please make a pull request or open an issue.'
 labels: [enhancement]
 body:
   - type: textarea

@@ -1,9 +1,21 @@
 {
   "name": "web-components-library-starter",
-  "packageManager": "pnpm@6.32.3",
   "version": "0.0.1",
+  "packageManager": "pnpm@6.32.3",
   "description": "The easiest way to ensure your media/data is always displayed quickly, securely and at the highest quality possible.",
+  "keywords": [
+    "web-components",
+    "component",
+    "library",
+    "vue",
+    "typescript",
+    "javascript"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meemalabs/web-components-library-starter.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -62,19 +74,7 @@
   "contributors": [
     "Chris Breuer <chris@meema.xyz>"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/meemalabs/web-components-library-starter.git"
-  },
   "bugs": {
     "url": "https://github.com/meemalabs/web-components-library-starter/issues"
-  },
-  "keywords": [
-    "web-components",
-    "component",
-    "library",
-    "vue",
-    "typescript",
-    "javascript"
-  ]
+  }
 }
