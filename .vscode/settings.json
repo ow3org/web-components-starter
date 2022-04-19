@@ -1,14 +1,19 @@
 {
   "cSpell.words": [
-    "Vitesse",
-    "Vite",
+    "meema",
+    "meemalabs",
+    "pnpm",
+    "degit",
     "vitest",
-    "vueuse",
-    "demi",
-    "antfu",
     "vitejs",
+    "vite",
     "unplugin",
-    "pnpm"
+    "vueuse",
+    "vue-demi",
+    "prefetch",
+    "destructurable",
+    "pausable",
+    "antfu",
   ],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
