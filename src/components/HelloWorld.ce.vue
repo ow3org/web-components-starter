@@ -36,5 +36,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-@import '../styles/index.css';
+@import "../styles/index.css";
 </style>
