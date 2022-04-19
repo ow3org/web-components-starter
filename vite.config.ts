@@ -35,7 +35,7 @@ const config: UserConfig = {
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
-      imports: ['vue', 'vue/macros', '@vueuse/core'],
+      imports: ['vue', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
       eslintrc: {
         enabled: true
