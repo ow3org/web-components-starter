@@ -51,8 +51,8 @@ const config: UserConfig = {
   ],
 
   test: {
-    include: ['test/**/*.test.ts'],
-    environment: 'jsdom',
+    include: ['tests/**/*.test.ts'],
+    // environment: 'jsdom',
     deps: {
       inline: ['@vue', '@vueuse', 'vue-demi']
     }
