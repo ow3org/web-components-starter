@@ -3,9 +3,9 @@
     "config:base"
   ],
   "assigneesFromCodeOwners": true,
-  "preserveSemverRanges": true,
   "packageRules": [
     {
+      "preserveSemverRanges": true,
       "matchPackagePatterns": [
         "*"
       ],
