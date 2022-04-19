@@ -94,4 +94,4 @@ For casual chit-chat with others using this package:
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️ by Meema Labs. Many thanks to [antfu].
+Made with ❤️ by Meema Labs. And many thanks to [antfu](https://github.com/antfu)!
