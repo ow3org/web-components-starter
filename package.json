@@ -1,6 +1,6 @@
 {
   "name": "web-components-library-starter",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "packageManager": "pnpm@6.32.3",
   "description": "The easiest way to ensure your media/data is always displayed quickly, securely and at the highest quality possible.",
   "keywords": [
