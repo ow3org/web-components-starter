@@ -11,6 +11,7 @@ Before you get started, it's is important to understand what a Web Component is.
 - [TypeScript 4.6](https://www.typescriptlang.org/)
 - [Vue 3.2](https://vuejs.org/) - write Web Components the same way you would write SFCs
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
+- [Cypress](https://cypress.io/) - E2E testing
 - [Tailwind CSS](https://tailwindcss.com/) - create your own style guide with ease
 - [GitHub Actions](https://vitebook.dev) - Commit code style fixes automatically, tag releases, and run the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
