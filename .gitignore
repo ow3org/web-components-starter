@@ -6,3 +6,9 @@ dist-ssr
 .DS_STORE
 .cache
 .temp
+
+# Cypress
+cypress/downloads
+cypress/fixtures
+cypress/plugins
+cypress/support

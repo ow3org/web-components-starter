@@ -41,7 +41,7 @@ npx degit meemalabs/web-components-library-starter my-wc-library
 cd my-wc-library
 pnpm i # if you don't have pnpm installed, run `npm install -g pnpm`
 
-# starts the local server at http://localhost:3000/ & watches for changes
+# starts the local server at http://localhost:3333/ & watches for changes
 pnpm dev
 
 # builds the library for production-ready use
