@@ -13,7 +13,8 @@ Before you get started, it's is important to understand what a Web Component is.
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
 - [Cypress](https://cypress.io/) - E2E testing
 - [Tailwind CSS](https://tailwindcss.com/) - create your own style guide with ease
-- [GitHub Actions](https://vitebook.dev) - Commit code style fixes automatically, tag releases, and run the test suite
+- [Renovate](https://renovatebot.com/) - Automatically PR dependency updates
+- [GitHub Actions](https://github.com/features/actions) - Commit code style fixes automatically, tag releases, and run the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
