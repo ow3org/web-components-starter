@@ -8,7 +8,6 @@
       "matchPackagePatterns": [
         "*"
       ],
-      "rangeStrategy": "replace",
       "matchUpdateTypes": [
         "minor",
         "patch"
@@ -24,7 +23,6 @@
       "matchPackagePatterns": [
         "*"
       ],
-      "rangeStrategy": "replace",
       "matchUpdateTypes": [
         "major"
       ],
