@@ -30,7 +30,7 @@ Before you get started, it's is important to understand what a Web Component is.
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
   - [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
 - [ESLint](https://eslint.org/) - statically analyzes your code to quickly find problems
-- [Prettier](https://prettier.io/) - Opinionated code formatting
+- [Prettier](https://prettier.io/) - Opinionated code formatting, like Tailwind class name sorting
 
 ## 💡 Get Started
 
@@ -94,4 +94,4 @@ For casual chit-chat with others using this package:
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️ by Meema, Inc.
+Made with ❤️ by Meema Labs. Many thanks to [antfu].
