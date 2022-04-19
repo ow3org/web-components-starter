@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "format": "prettier . --write && eslint . --fix",
     "test": "vitest",
-    "test:ci": "vitest",
+    "test:unit": "vitest",
     "coverage": "vitest run --coverage",
     "typecheck": "vue-tsc --noEmit"
   },
