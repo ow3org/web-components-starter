@@ -47,7 +47,7 @@ jobs:
       - name: Create Fixer PR
         run: |
           if [[ -z $(git status --porcelain) ]]; then
-            echo "Nothing to fix.. Exiting."
+            echo "Nothing to fix... Exiting."
             exit 0
           fi
           OPEN_PRS=`curl --silent -H "Accept: application/vnd.github.v3+json" -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$GITHUB_REPOSITORY/pulls?state=open"`
