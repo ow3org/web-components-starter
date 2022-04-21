@@ -3,11 +3,11 @@ lockfileVersion: 5.3
 specifiers:
   '@antfu/eslint-config': 0.20.6
   '@babel/types': 7.17.0
-  '@vitebook/client': 0.23.5
-  '@vitebook/core': 0.23.5
-  '@vitebook/markdown-vue': 0.23.5
-  '@vitebook/theme-default': 0.23.5
-  '@vitebook/vue': 0.23.5
+  '@vitebook/client': 0.23.6
+  '@vitebook/core': 0.23.6
+  '@vitebook/markdown-vue': 0.23.6
+  '@vitebook/theme-default': 0.23.6
+  '@vitebook/vue': 0.23.6
   '@vitejs/plugin-vue': 2.3.1
   '@vue/compiler-sfc': 3.2.33
   '@vueuse/core': 8.3.0
@@ -29,7 +29,7 @@ specifiers:
   vite: 2.9.5
   vitest: 0.9.3
   vue: 3.2.33
-  vue-tsc: 0.34.7
+  vue-tsc: 0.34.8
 
 dependencies:
   '@vueuse/core': 8.3.0_vue@3.2.33
@@ -38,11 +38,11 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.20.6_eslint@8.13.0+typescript@4.6.3
   '@babel/types': 7.17.0
-  '@vitebook/client': 0.23.5_7cd4642fe764731b4b1c6f725f42d5ae
-  '@vitebook/core': 0.23.5
-  '@vitebook/markdown-vue': 0.23.5_a4b478fe8217ad38fff96826b5898625
-  '@vitebook/theme-default': 0.23.5_555d7acd944f797fd991caa1ab598918
-  '@vitebook/vue': 0.23.5_96bfc9095b55b1429ca5e16560a486dc
+  '@vitebook/client': 0.23.6_186731550f596f94571dc251a22b628e
+  '@vitebook/core': 0.23.6
+  '@vitebook/markdown-vue': 0.23.6_a84e857576a2bb43eddbd95853d3fd71
+  '@vitebook/theme-default': 0.23.6_f7fd429561e9a5026c8f2ea942392fdb
+  '@vitebook/vue': 0.23.6_f2620a421977304df7cfa8f161becd4d
   '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
   '@vue/compiler-sfc': 3.2.33
   autoprefixer: 10.4.4_postcss@8.4.12
@@ -62,7 +62,7 @@ devDependencies:
   unplugin-vue-components: 0.19.3_vite@2.9.5+vue@3.2.33
   vite: 2.9.5
   vitest: 0.9.3
-  vue-tsc: 0.34.7_typescript@4.6.3
+  vue-tsc: 0.34.8_typescript@4.6.3
 
 packages:
 
@@ -531,16 +531,16 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitebook/client/0.23.5_7cd4642fe764731b4b1c6f725f42d5ae:
-    resolution: {integrity: sha512-wJlke+7Dt0nHHICOyUzVyCEBsniitKA+ccoUXxlkdpZuOAkzyEuOjrpbGVOf1zY+UN49/9SGTOdSat4lp1M9oA==}
+  /@vitebook/client/0.23.6_186731550f596f94571dc251a22b628e:
+    resolution: {integrity: sha512-DtHwyhlZW1pjCTOgqZSP9KDWhGLK4TvjtYTYNgfAG4htOwNOhjG9s7u2CJFEG7lnWKeBGLiMaqjhcOUHzphw8A==}
     requiresBuild: true
     peerDependencies:
-      '@vitebook/core': 0.23.5
+      '@vitebook/core': 0.23.6
       svelte: ^3.44.1
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.41_svelte@3.47.0+vite@2.9.5
-      '@vitebook/core': 0.23.5
+      '@vitebook/core': 0.23.6
       esbuild: 0.12.29
       just-debounce-it: 3.0.1
       just-throttle: 4.0.1
@@ -553,8 +553,8 @@ packages:
       - vite
     dev: true
 
-  /@vitebook/core/0.23.5:
-    resolution: {integrity: sha512-kQC8uFLWPlolIZkcLm79W95DDJhDMYPXEzsYrY82rccjglXRMm1fkvqDFLT8lrXHoSWBsC+dWoVsREYoTeUbrw==}
+  /@vitebook/core/0.23.6:
+    resolution: {integrity: sha512-5PYKNafa4MZSHnOtEq4apt36hjdUVNHaqJfJHyqa7CrHeqEQKUMYkJDK45JZZVvs2k6/Qh1VeBTPo/qm2vqGLA==}
     engines: {node: '>=15'}
     hasBin: true
     dependencies:
@@ -578,18 +578,18 @@ packages:
       - supports-color
     dev: true
 
-  /@vitebook/markdown-vue/0.23.5_a4b478fe8217ad38fff96826b5898625:
-    resolution: {integrity: sha512-gkTclQa4c+kD+iJB83KRWapRaVRza83Zv5SfqDQSvoMFkL/eQ+qPxvACbTpe6RuzrNN58UaP4jg+O3WasfwJ8A==}
+  /@vitebook/markdown-vue/0.23.6_a84e857576a2bb43eddbd95853d3fd71:
+    resolution: {integrity: sha512-Ffke/QKT487wNbzlaNDm7p++r9cV9UPDQ2Q/uAw7n/lq5FhTVqetn6UDxmO79kCe00cFL/asN9cIMS/FcdtpNw==}
     peerDependencies:
-      '@vitebook/core': 0.23.5
-      '@vitebook/vue': 0.23.5
+      '@vitebook/core': 0.23.6
+      '@vitebook/vue': 0.23.6
       vue: ^3.2.26
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@types/lru-cache': 5.1.1
-      '@vitebook/core': 0.23.5
-      '@vitebook/markdown': 0.23.5_270f58e02bb9a4485cc5970e68917f5b
-      '@vitebook/vue': 0.23.5_96bfc9095b55b1429ca5e16560a486dc
+      '@vitebook/core': 0.23.6
+      '@vitebook/markdown': 0.23.6_fe16358e25ba905c134b275ba4ff595b
+      '@vitebook/vue': 0.23.6_f2620a421977304df7cfa8f161becd4d
       kleur: 4.1.4
       lru-cache: 6.0.0
       vue: 3.2.33
@@ -597,17 +597,17 @@ packages:
       - '@vitebook/client'
     dev: true
 
-  /@vitebook/markdown/0.23.5_270f58e02bb9a4485cc5970e68917f5b:
-    resolution: {integrity: sha512-IHqoUag5BguAUIe89wDuFnyfCx0tNLEnF3/ZBWTlw5PI5ZzfmfTYgYFsmrIAV2uoqeb8MWSZtUnRrpBMAMY0Uw==}
+  /@vitebook/markdown/0.23.6_fe16358e25ba905c134b275ba4ff595b:
+    resolution: {integrity: sha512-hOXvjBRQZWNydIVMFrAqS/P7yBogHRPmhVRJ29e8EM0I6P9NEO5HIFCqOt/CHeTuCZv+RusAx138+yx61dMs4w==}
     peerDependencies:
-      '@vitebook/client': 0.23.5
-      '@vitebook/core': 0.23.5
+      '@vitebook/client': 0.23.6
+      '@vitebook/core': 0.23.6
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@types/lru-cache': 5.1.1
       '@types/markdown-it': 12.2.3
-      '@vitebook/client': 0.23.5_7cd4642fe764731b4b1c6f725f42d5ae
-      '@vitebook/core': 0.23.5
+      '@vitebook/client': 0.23.6_186731550f596f94571dc251a22b628e
+      '@vitebook/core': 0.23.6
       gray-matter: 4.0.3
       lru-cache: 6.0.0
       markdown-it: 12.3.2
@@ -618,30 +618,30 @@ packages:
       toml: 3.0.0
     dev: true
 
-  /@vitebook/theme-default/0.23.5_555d7acd944f797fd991caa1ab598918:
-    resolution: {integrity: sha512-+TeJNG8kg3fYSoaLzd0QI1J147nampPBKT5whC2u25EPCoOltUNBLCHVB0Rg35l105ZG2gsl51Ht2VymB8W3Gw==}
+  /@vitebook/theme-default/0.23.6_f7fd429561e9a5026c8f2ea942392fdb:
+    resolution: {integrity: sha512-TKd1PG9eObf9+8ME+lnxLRNSmF6yKXwechHxTH+xb8GdNLvhOLTio9mHpqhTa6pXFT4BlT1M24S6OYFgSFwfDQ==}
     peerDependencies:
-      '@vitebook/client': 0.23.5
-      '@vitebook/core': 0.23.5
+      '@vitebook/client': 0.23.6
+      '@vitebook/core': 0.23.6
       svelte: ^3.44.1
     dependencies:
-      '@vitebook/client': 0.23.5_7cd4642fe764731b4b1c6f725f42d5ae
-      '@vitebook/core': 0.23.5
+      '@vitebook/client': 0.23.6_186731550f596f94571dc251a22b628e
+      '@vitebook/core': 0.23.6
       kleur: 4.1.4
       svelte: 3.47.0
     dev: true
 
-  /@vitebook/vue/0.23.5_96bfc9095b55b1429ca5e16560a486dc:
-    resolution: {integrity: sha512-OJCvSUgmq584Xy3kNZLMdXchyg7GwdXHw0sKsJCrXu4bTCgofsvaD0pK8swTbfWUY36YNcftuGWb9XB44MEJHQ==}
+  /@vitebook/vue/0.23.6_f2620a421977304df7cfa8f161becd4d:
+    resolution: {integrity: sha512-MRl48iqEHaazXecimlzrRb3Kx5vusDCR+HtdhsaVX/BZOWjuJ97x2RuHMuLUxRSm9fac/vHPNOhiGIDVuKjdBg==}
     peerDependencies:
-      '@vitebook/client': 0.23.5
-      '@vitebook/core': 0.23.5
+      '@vitebook/client': 0.23.6
+      '@vitebook/core': 0.23.6
       '@vue/compiler-sfc': ^3.2.26
       vue: ^3.2.26
     dependencies:
       '@rollup/pluginutils': 4.2.1
-      '@vitebook/client': 0.23.5_7cd4642fe764731b4b1c6f725f42d5ae
-      '@vitebook/core': 0.23.5
+      '@vitebook/client': 0.23.6_186731550f596f94571dc251a22b628e
+      '@vitebook/core': 0.23.6
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
       '@vue/compiler-sfc': 3.2.33
       vue: 3.2.33
@@ -660,32 +660,32 @@ packages:
       vue: 3.2.33
     dev: true
 
-  /@volar/code-gen/0.34.7:
-    resolution: {integrity: sha512-E1N1VGlChXd0D7WPmmjKhtcZdUKNpBFC4BRqfY+7FZGh89FZlw3uG6Nn76/DjMBLVhfCIY9vA8pwWIN1lI8nYw==}
+  /@volar/code-gen/0.34.8:
+    resolution: {integrity: sha512-BTH6704XbsppOMyAAZzuV8Y9ENe5CzAkkaUBOFJGzYA4M8XOpQGC0A8I31aUc+XGS23DCATgkar8V/HeHEC6JQ==}
     dependencies:
-      '@volar/source-map': 0.34.7
+      '@volar/source-map': 0.34.8
     dev: true
 
-  /@volar/source-map/0.34.7:
-    resolution: {integrity: sha512-KBNcKCWKsY2f965xuuT4dSbt8GR6nHMzb9gi7ucUHtmRQnvrB31BLBvZNQTHMqkbhRmKArDSuIrbUUG9yu0OXQ==}
+  /@volar/source-map/0.34.8:
+    resolution: {integrity: sha512-PPCcf72A4a3DCqTCHf2MM6IVtHswGl5nkdS9VkeFQfau6OHt1byDCgoo9E9O41N90MmUAdAQAdiYbc2MHRWPIg==}
     dev: true
 
-  /@volar/vue-code-gen/0.34.7:
-    resolution: {integrity: sha512-vejzO30QrDAEZKguZI8hlAnKhwNoX1INXrOMurlmwCbNft2oEloT+ikFF8QYDz3vWWrdFSsoOKp3BTHyurJ5Nw==}
+  /@volar/vue-code-gen/0.34.8:
+    resolution: {integrity: sha512-vfRVlC/H24EZ0pNzOUawBJJ1XbZwos2HDhRgONN0R0+aiRtFUWFcFq+yRztWEEhYCLJNaU3+ZlXK5UOKqCf0zQ==}
     dependencies:
-      '@volar/code-gen': 0.34.7
-      '@volar/source-map': 0.34.7
+      '@volar/code-gen': 0.34.8
+      '@volar/source-map': 0.34.8
       '@vue/compiler-core': 3.2.33
       '@vue/compiler-dom': 3.2.33
       '@vue/shared': 3.2.33
     dev: true
 
-  /@volar/vue-typescript/0.34.7:
-    resolution: {integrity: sha512-Ebln64LQutjuNs8nk57oFo45JMQVdZKThkNAeFrzaqB0UItazRQpSXet4vHzfV18FMCV3Cc6fEqZ14WZzQAxgQ==}
+  /@volar/vue-typescript/0.34.8:
+    resolution: {integrity: sha512-TmdqxlnCt0j4cUMxnwJH/CX4Tb/87mCkhxsCeaD44m9U4MC9vMVaev6JOW72Jpu00FmSmPOREX5nYfQbA3ycSw==}
     dependencies:
-      '@volar/code-gen': 0.34.7
-      '@volar/source-map': 0.34.7
-      '@volar/vue-code-gen': 0.34.7
+      '@volar/code-gen': 0.34.8
+      '@volar/source-map': 0.34.8
+      '@volar/vue-code-gen': 0.34.8
       '@vue/compiler-sfc': 3.2.33
       '@vue/reactivity': 3.2.33
     dev: true
@@ -4920,13 +4920,13 @@ packages:
       - supports-color
     dev: true
 
-  /vue-tsc/0.34.7_typescript@4.6.3:
-    resolution: {integrity: sha512-GcdwGuddEakVBHKw7uiZUfHqobGD4Ym2XExGuwYuxw7rT50ZnRZvYQ3IB7zyPLa7UZEmiy6HTJiTrArw7ZOu+w==}
+  /vue-tsc/0.34.8_typescript@4.6.3:
+    resolution: {integrity: sha512-RvuFwiuj2lfSnTGHhLy6xLspNA7VOU3low+Ckvbl3utw6A6ELmXDUuuo8VAzNm7HuJe3M64lAxxWdOOG3vqMVw==}
     hasBin: true
     peerDependencies:
       typescript: '*'
     dependencies:
-      '@volar/vue-typescript': 0.34.7
+      '@volar/vue-typescript': 0.34.8
       typescript: 4.6.3
     dev: true
 
