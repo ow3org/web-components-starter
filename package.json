@@ -33,7 +33,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@vueuse/core": "8.3.0",
+    "@vueuse/core": "8.3.1",
     "vue": "3.2.33"
   },
   "devDependencies": {
@@ -62,8 +62,8 @@
     "unplugin-auto-import": "0.7.1",
     "unplugin-vue-components": "0.19.3",
     "vite": "2.9.5",
-    "vitest": "0.9.3",
-    "vue-tsc": "0.34.8"
+    "vitest": "0.9.4",
+    "vue-tsc": "0.34.9"
   },
   "engines": {
     "node": ">=16.*"
