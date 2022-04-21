@@ -39,11 +39,11 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.20.6",
     "@babel/types": "7.17.0",
-    "@vitebook/client": "0.23.5",
-    "@vitebook/core": "0.23.5",
-    "@vitebook/markdown-vue": "0.23.5",
-    "@vitebook/theme-default": "0.23.5",
-    "@vitebook/vue": "0.23.5",
+    "@vitebook/client": "0.23.6",
+    "@vitebook/core": "0.23.6",
+    "@vitebook/markdown-vue": "0.23.6",
+    "@vitebook/theme-default": "0.23.6",
+    "@vitebook/vue": "0.23.6",
     "@vitejs/plugin-vue": "2.3.1",
     "@vue/compiler-sfc": "3.2.33",
     "autoprefixer": "10.4.4",
@@ -63,7 +63,7 @@
     "unplugin-vue-components": "0.19.3",
     "vite": "2.9.5",
     "vitest": "0.9.3",
-    "vue-tsc": "0.34.7"
+    "vue-tsc": "0.34.8"
   },
   "engines": {
     "node": ">=16.*"
