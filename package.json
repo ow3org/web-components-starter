@@ -66,7 +66,7 @@
     "vue-tsc": "0.34.10"
   },
   "engines": {
-    "node": ">=16.*"
+    "node": ">=v16.15.0"
   },
   "contributors": [
     "Chris Breuer <chris@meema.xyz>"
