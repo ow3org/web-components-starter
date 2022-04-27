@@ -1,7 +1,7 @@
 {
   "name": "web-components-library-starter",
   "version": "0.3.0",
-  "packageManager": "pnpm@6.32.9",
+  "packageManager": "pnpm@6.32.11",
   "description": "The easiest way to ensure your media/data is always displayed quickly, securely and at the highest quality possible.",
   "keywords": [
     "web-components",
@@ -37,7 +37,7 @@
     "vue": "3.2.33"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.20.6",
+    "@antfu/eslint-config": "0.21.1",
     "@babel/types": "7.17.0",
     "@vitebook/client": "0.23.6",
     "@vitebook/core": "0.23.6",
@@ -46,12 +46,12 @@
     "@vitebook/vue": "0.23.6",
     "@vitejs/plugin-vue": "2.3.1",
     "@vue/compiler-sfc": "3.2.33",
-    "autoprefixer": "10.4.4",
-    "cypress": "9.5.4",
-    "eslint": "8.13.0",
+    "autoprefixer": "10.4.5",
+    "cypress": "9.6.0",
+    "eslint": "8.14.0",
     "eslint-plugin-cypress": "2.12.1",
     "https-localhost": "4.7.1",
-    "pnpm": "6.32.9",
+    "pnpm": "6.32.11",
     "postcss": "8.4.12",
     "postcss-import": "14.1.0",
     "prettier": "2.6.2",
@@ -61,9 +61,9 @@
     "typescript": "4.6.3",
     "unplugin-auto-import": "0.7.1",
     "unplugin-vue-components": "0.19.3",
-    "vite": "2.9.5",
-    "vitest": "0.9.4",
-    "vue-tsc": "0.34.9"
+    "vite": "2.9.6",
+    "vitest": "0.10.0",
+    "vue-tsc": "0.34.10"
   },
   "engines": {
     "node": ">=16.*"
