@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
+    "openweblabs",
+    "openweb",
     "meema",
     "meemalabs",
     "pnpm",
@@ -14,7 +16,15 @@
     "destructurable",
     "pausable",
     "antfu",
-    "vitebook"
+    "vitebook",
+    "heroicon",
+    "booleanish",
+    "composables",
+    "preinstall",
+    "commitlint",
+    "commitlintrc",
+    "upath",
+    "bumpp"
   ],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
