@@ -4,9 +4,8 @@
   "recommendations": [
     // "antfu.vite",
     "johnsoncodehk.volar",
-    "bradlc.vscode-tailwindcss",
+    "voorjaar.windicss-intellisense",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
     "davidanson.vscode-markdownlint"
   ]

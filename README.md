@@ -8,15 +8,15 @@ Before you get started, it's is important to understand what a Web Component is.
 
 ### 👩🏽‍💻 Dev Tools
 
-- [TypeScript 4.6](https://www.typescriptlang.org/)
+- [Vite 2.9](https://vitejs.dev/) - "Next Generation Frontend Tooling"
 - [Vue 3.2](https://vuejs.org/) - write Web Components the same way you would write SFCs
+- [TypeScript 4.6](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
 - [Cypress](https://cypress.io/) - E2E testing
 - [Tailwind CSS](https://tailwindcss.com/) - create your own style guide with ease
-- [Renovate](https://renovatebot.com/) - Automatically PR dependency updates
+- [Renovate](https://renovatebot.com/) - automatic PR dependency updates
 - [GitHub Actions](https://github.com/features/actions) - Commit code style fixes automatically, tag releases, and run the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
-  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
 
 ### 🧩 Plugins
@@ -24,7 +24,6 @@ Before you get started, it's is important to understand what a Web Component is.
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [VueUse](https://github.com/antfu/vueuse) - Collection of useful composition APIs
-- [Vitebook](https://vitebook.dev) - A modern open source Storybook alternative
 
 ### 🥰 Coding Style
 
@@ -38,7 +37,7 @@ Before you get started, it's is important to understand what a Web Component is.
 It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out the index.html and how the `HelloWorld`-component is defined within this repo. Feel free to create any component.
 
 ```bash
-npx degit meemalabs/web-components-library-starter my-wc-library
+npx degit openweblabs/web-components-library-starter my-wc-library
 cd my-wc-library
 pnpm i # if you don't have pnpm installed, run `npm install -g pnpm`
 
@@ -75,7 +74,7 @@ yarn test
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/meemalabs/web-components-library-starter/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/openweblabs/web-components-library-starter/releases) page for more information on what has changed recently.
 
 ## 💪🏼 Contributing
 
@@ -85,7 +84,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/meemalabs/web-components-library-starter/discussions)
+[Discussions on GitHub](https://github.com/openweblabs/web-components-library-starter/discussions)
 
 For casual chit-chat with others using this package:
 

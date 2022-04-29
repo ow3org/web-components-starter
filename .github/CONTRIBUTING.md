@@ -50,7 +50,7 @@ pull requests from the forked branch.
 
 ```bash
 # Add the original repository as a "remote" called "upstream".
-$: git remote add upstream git@github.com:meemalabs/web-components-library-starter.git
+$: git remote add upstream git@github.com:openweblabs/web-components-library-starter.git
 
 # Fetch the git information from the remote.
 $: git fetch upstream
@@ -104,6 +104,6 @@ contribution is appreciated more than you can imagine, and even a failed PR can 
 [vitebook]: https://vitebook.dev/
 [vue]: https://v3.vuejs.org/
 [web-components]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
-[web-components-library-starter]: https://github.com/meemalabs/web-components-library-starter
+[web-components-library-starter]: https://github.com/openweblabs/web-components-library-starter
 [semantic-commit-style]: https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 [pr-beginner-series]: https://app.egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github

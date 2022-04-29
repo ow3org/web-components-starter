@@ -1,3 +1,4 @@
+import 'uno.css'
 import { defineCustomElement } from 'vue'
 import HelloWorld from './components/HelloWorld.ce.vue'
 

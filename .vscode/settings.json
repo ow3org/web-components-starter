@@ -24,15 +24,20 @@
     "commitlint",
     "commitlintrc",
     "upath",
-    "bumpp"
+    "bumpp",
+    "unocss"
   ],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "html.customData": [
     "./.vscode/vscode.html-data.json"
   ],
   "css.customData": [],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "windicss.sortOnSave": true
 }

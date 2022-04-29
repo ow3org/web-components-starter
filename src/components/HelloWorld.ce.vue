@@ -23,12 +23,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold text-red-800">
+  <h1 class="font-bold text-3xl text-red-800">
     {{ props.message }}
   </h1>
   <button
     type="button"
-    class="inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+    class="bg-white border rounded-md font-medium border-gray-300 shadow-sm text-base py-2 px-4 text-gray-700 inline-flex items-center hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
     @click="increment"
   >
     Count is: {{ count }}
@@ -36,5 +36,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-@import "../styles/index.css";
+/* @import "uno.css"; */
 </style>
