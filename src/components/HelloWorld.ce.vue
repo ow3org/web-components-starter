@@ -1,6 +1,6 @@
 <script setup lang="ts">
 interface Props {
-  title: string
+  message: string
 }
 
 const props = defineProps<Props>()
@@ -18,13 +18,13 @@ onMounted(() => {
   // eslint-disable-next-line no-console
   console.log(`The initial count is ${count}.`)
   // eslint-disable-next-line no-console
-  console.log(`The title is ${props.title}.`)
+  console.log(`The message is ${props.message}.`)
 })
 </script>
 
 <template>
   <h1 class="text-3xl font-bold text-red-800">
-    {{ props.title }}
+    {{ props.message }}
   </h1>
   <button
     type="button"

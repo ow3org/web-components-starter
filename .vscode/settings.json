@@ -29,5 +29,10 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "html.customData": [
+    "./.vscode/vscode.html-data.json"
+  ],
+  "css.customData": [],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
