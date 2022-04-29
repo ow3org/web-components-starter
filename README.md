@@ -2,9 +2,9 @@
 
 "Why create components for a specific framework when it can be written to be understood by all — including browsers?"
 
-## 👋🏼 Introduction
+## 🤝 Introduction
 
-Before you get started, it's is important to understand what a Web Component is. Think of it as a (custom) HTML element. That being said, this is an opinionated starter kit to help you expedite the development of your component library.
+Before you get started, it is important to understand what a Web Component is. Think of it as a (custom) HTML element. This custom element can natively be used within your framework-of-choice. That being said, this is an opinionated starter kit, employing many best-practices, to help you expedite the development of your web component library.
 
 ### 👩🏽‍💻 Dev Tools
 
@@ -28,9 +28,10 @@ Before you get started, it's is important to understand what a Web Component is.
 ### 🥰 Coding Style
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
-  - [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
+- [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) - enabled
 - [ESLint](https://eslint.org/) - statically analyzes your code to quickly find problems
-- [Prettier](https://prettier.io/) - Opinionated code formatting, like Tailwind class name sorting
+
+When using this template, feel free to adjust it to your needs. This is simply a framework to help you quickly & efficiently develop and design components using industry best-practices.
 
 ## 💡 Get Started
 
@@ -41,14 +42,18 @@ npx degit openweblabs/web-components-library-starter my-wc-library
 cd my-wc-library
 pnpm i # if you don't have pnpm installed, run `npm install -g pnpm`
 
-# starts the local server at http://localhost:3333/ & watches for changes
+# starts the local server at http://localhost:3333 & watches for changes
 pnpm dev
 
-# builds the library for production-ready use
+# builds the component library for production-ready use
 pnpm build
+
+# check out the `package.json` to see the remainder of scripts
 ```
 
-Additionally, the `package.json` contains some useful snippets you likely want to be aware of.
+### Tips
+
+When using VS Code as your code editor, you may want to consider keeping the [vscode.html-data.json](.vscode/vscode.html-data.json) file updated. It provides hints to your code editor and you can find more examples [here](https://github.com/microsoft/vscode-custom-data/blob/main/web-data/html/htmlTags.json).
 
 ## 🖥️ Browsers
 
