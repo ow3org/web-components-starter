@@ -13,7 +13,7 @@ Before you get started, it's is important to understand what a Web Component is.
 - [TypeScript 4.6](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
 - [Cypress](https://cypress.io/) - E2E testing
-- [UnoCSS](https://github.com/unocss/unocss) - create your own style guide with ease
+- [UnoCSS](https://github.com/unocss/unocss) - create your own style guide with ease (e.g. Tailwind CSS)
 - [Renovate](https://renovatebot.com/) - automatic PR dependency updates
 - [GitHub Actions](https://github.com/features/actions) - automatically fixes code style issues, tags releases, and runs the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
