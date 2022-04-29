@@ -13,9 +13,9 @@ Before you get started, it's is important to understand what a Web Component is.
 - [TypeScript 4.6](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
 - [Cypress](https://cypress.io/) - E2E testing
-- [Tailwind CSS](https://tailwindcss.com/) - create your own style guide with ease
+- [UnoCSS](https://github.com/unocss/unocss) - create your own style guide with ease
 - [Renovate](https://renovatebot.com/) - automatic PR dependency updates
-- [GitHub Actions](https://github.com/features/actions) - Commit code style fixes automatically, tag releases, and run the test suite
+- [GitHub Actions](https://github.com/features/actions) - automatically fixes code style issues, tags releases, and runs the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
 
@@ -23,7 +23,7 @@ Before you get started, it's is important to understand what a Web Component is.
 
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [VueUse](https://github.com/antfu/vueuse) - Collection of useful composition APIs
+- [VueUse](https://github.com/vueuse/vueuse) - Collection of useful composition APIs
 
 ### 🥰 Coding Style
 

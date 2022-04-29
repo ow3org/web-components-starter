@@ -30,7 +30,9 @@ const config: UserConfig = {
       },
     }),
 
-    Unocss(),
+    Unocss({
+      mode: 'vue-scoped',
+    }),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({

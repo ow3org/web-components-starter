@@ -1,9 +1,7 @@
 <script setup lang="ts">
-interface Props {
+const { message = 'Welcome!' } = defineProps<{
   message: string
-}
-
-const props = defineProps<Props>()
+}>()
 
 // reactive state
 let count = $ref(0)
@@ -18,13 +16,13 @@ onMounted(() => {
   // eslint-disable-next-line no-console
   console.log(`The initial count is ${count}.`)
   // eslint-disable-next-line no-console
-  console.log(`The message is ${props.message}.`)
+  console.log(`The message is ${message}.`)
 })
 </script>
 
 <template>
   <h1 class="font-bold text-3xl text-red-800">
-    {{ props.message }}
+    {{ message }}
   </h1>
   <button
     type="button"
@@ -35,6 +33,4 @@ onMounted(() => {
   </button>
 </template>
 
-<style scoped>
-/* @import "uno.css"; */
-</style>
+<style scoped></style>
