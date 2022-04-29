@@ -18,7 +18,7 @@
     "url": "https://github.com/meemalabs/web-components-library-starter.git"
   },
   "scripts": {
-    "dev": "node .scripts/run-example.js"
+    "dev": "vite dev --open --port 3333"
   },
   "engines": {
     "node": ">=v16.15.0",
