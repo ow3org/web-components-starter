@@ -1,6 +1,6 @@
 {
   "name": "web-components-library-starter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
   "packageManager": "pnpm@6.32.11",
   "description": "The most simple way to create a cross-framework component library. Using Web Components, to be understood by all.",
@@ -30,7 +30,8 @@
     "typecheck": "vue-tsc --noEmit",
     "preinstall": "node .scripts/check-for-pnpm.js && node .scripts/check-node-version.js",
     "commit": "git-cz",
-    "release": "npx bumpp package.json examples/*/package.json --commit 'chore(release): %s' --tag --push && pnpm run changelog"
+    "release": "npx bumpp package.json --commit 'chore(release): %s' --tag --push && pnpm run changelog",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "@vueuse/core": "8.3.1",
