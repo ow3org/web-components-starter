@@ -1,3 +1,17 @@
+# [0.5.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.4.0...v0.5.0) (2022-04-30)
+
+
+### Bug Fixes
+
+* **tooling:** properly generate & commit the changelog ([7b67682](https://github.com/openweblabs/web-components-library-starter/commit/7b676821440b66502f95f51ef311b7275143a589))
+
+
+### Features
+
+* **tooling:** add `deps` scope ([c2d9e33](https://github.com/openweblabs/web-components-library-starter/commit/c2d9e33c6ae52cbcf16eec9d079dc19116b77b7d))
+
+
+
 # [0.4.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.3.1...v0.4.0) (2022-04-29)
 
 
