@@ -19,6 +19,8 @@ Before you get started, it is important to understand what a Web Component is. T
 - [GitHub Actions](https://github.com/features/actions) - automatically fixes code style issues, tags releases, and runs the test suite
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
+  - [cspell](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - spell checking
+  - [Windi Intellisense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense) - Tailwind CSS (or Windi CSS) class name sorter
 
 ### 🧩 Plugins
 
@@ -29,7 +31,7 @@ Before you get started, it is important to understand what a Web Component is. T
 ### 🥰 Coding Style
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
-- [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) - enabled
+- [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
 - [ESLint](https://eslint.org/) - statically analyzes your code to quickly find problems
 
 When using this template, feel free to adjust it to your needs. This is simply a framework to help you quickly & efficiently develop and design components using industry best-practices.
@@ -55,6 +57,15 @@ pnpm build
 ### Tips
 
 When using VS Code as your code editor, you may want to consider keeping the [vscode.html-data.json](.vscode/vscode.html-data.json) file updated. It provides hints to your code editor and you can find more examples [here](https://github.com/microsoft/vscode-custom-data/blob/main/web-data/html/htmlTags.json).
+
+```bash
+# how to create a git commit?
+git add . # select the changes you want to commit
+pnpm run commit # then simply answer the questions
+
+# after you have successfully committed, you may create a "release"
+pnpm run release # automates git commits, versioning, and CHANGELOG generation
+```
 
 ## 🖥️ Browsers
 
