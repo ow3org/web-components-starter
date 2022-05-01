@@ -105,10 +105,10 @@ For help, discussion about best practices, or any other conversation that would 
 
 For casual chit-chat with others using this package:
 
-[Join the Meema Discord Server](https://discord.meema.io)
+[Join the Open Web Discord Server](https://discord.ow3.org)
 
 ## 📄 License
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️ by Meema Labs. And many thanks to [antfu](https://github.com/antfu)!
+Made with ❤️ by Open Web Labs. And many thanks to [antfu](https://github.com/antfu)!
