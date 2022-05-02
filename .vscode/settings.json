@@ -1,4 +1,18 @@
 {
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "html.customData": [
+    "./.vscode/vscode.html-data.json"
+  ],
+  "css.customData": [],
+  "windicss.sortOnSave": true,
   "cSpell.words": [
     "openweblabs",
     "openweb",
@@ -25,19 +39,7 @@
     "commitlintrc",
     "upath",
     "bumpp",
-    "unocss"
+    "unocss",
+    "typecheck"
   ],
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "html.customData": [
-    "./.vscode/vscode.html-data.json"
-  ],
-  "css.customData": [],
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "windicss.sortOnSave": true
 }
