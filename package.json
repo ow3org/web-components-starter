@@ -1,6 +1,6 @@
 {
   "name": "web-components-library-starter",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "packageManager": "pnpm@7.0.0",
   "description": "The most simple way to create a cross-framework component library. Using Web Components, to be understood by all.",
   "keywords": [

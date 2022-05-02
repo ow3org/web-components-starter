@@ -1,3 +1,18 @@
+# [0.6.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.5.0...v0.6.0) (2022-05-02)
+
+
+### Bug Fixes
+
+* **tooling:** volar namespace update ([42436ec](https://github.com/openweblabs/web-components-library-starter/commit/42436ecebdfa3f4b14ecf8904b06eadc11acb2c1))
+
+
+### Features
+
+* **tooling:** improve vscode settings ([6515e7b](https://github.com/openweblabs/web-components-library-starter/commit/6515e7bada8ffc3a0cb482475a20ba9b744e756f))
+* **tooling:** setup commitlint via ts ([7f53227](https://github.com/openweblabs/web-components-library-starter/commit/7f532273806e277207336a7453306c0a04aa9495))
+
+
+
 # [0.5.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.4.0...v0.5.0) (2022-04-30)
 
 
