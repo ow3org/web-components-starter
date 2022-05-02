@@ -1,7 +1,6 @@
 {
   "name": "web-components-library-starter",
   "version": "0.5.0",
-  "type": "module",
   "packageManager": "pnpm@7.0.0",
   "description": "The most simple way to create a cross-framework component library. Using Web Components, to be understood by all.",
   "keywords": [
@@ -43,6 +42,7 @@
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@commitlint/cz-commitlint": "^16.2.4",
+    "@types/node": "^17.0.31",
     "@vitejs/plugin-vue": "2.3.1",
     "@vue/compiler-sfc": "3.2.33",
     "bumpp": "^7.1.1",
@@ -67,7 +67,7 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
-    "commit-msg": "npx commitlint --config ./commitlint.config.cjs --edit $1"
+    "commit-msg": "npx commitlint --config ./commitlint.config.ts --edit $1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": "eslint --fix",
