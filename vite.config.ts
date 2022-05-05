@@ -5,6 +5,7 @@ import Vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Unocss from 'unocss/vite'
+import PresetIcons from '@unocss/preset-icons'
 import pkg from './package.json'
 
 process.env.VITE_APP_VERSION = pkg.version
@@ -31,7 +32,16 @@ const config: UserConfig = {
     }),
 
     Unocss({
-      mode: 'vue-scoped',
+      mode: 'shadow-dom',
+      presets: [
+        PresetIcons({
+          prefix: 'i-',
+          extraProperties: {
+            'display': 'inline-block',
+            'vertical-align': 'middle',
+          },
+        }),
+      ],
     }),
 
     // https://github.com/antfu/unplugin-auto-import

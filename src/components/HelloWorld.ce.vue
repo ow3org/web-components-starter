@@ -33,4 +33,6 @@ onMounted(() => {
   </button>
 </template>
 
-<style scoped></style>
+<style scoped>
+@unocss-placeholder
+</style>

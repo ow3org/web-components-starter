@@ -40,6 +40,8 @@
     "upath",
     "bumpp",
     "unocss",
-    "typecheck"
-  ],
+    "typecheck",
+    "iconify",
+    "heroicons"
+  ]
 }
