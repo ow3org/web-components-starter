@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.6.0...v0.7.0) (2022-05-05)
+
+
+### Features
+
+* **tooling:** add icons & unocss configuration ([655efdf](https://github.com/openweblabs/web-components-library-starter/commit/655efdf6e9ecf2b36e3ee3a91747cc9e52a74e35))
+
+
+
 # [0.6.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.5.0...v0.6.0) (2022-05-02)
 
 
