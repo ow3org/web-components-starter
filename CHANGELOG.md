@@ -1,3 +1,7 @@
+## [0.7.1](https://github.com/openweblabs/web-components-library-starter/compare/v0.7.0...v0.7.1) (2022-05-14)
+
+
+
 # [0.7.0](https://github.com/openweblabs/web-components-library-starter/compare/v0.6.0...v0.7.0) (2022-05-05)
 
 
