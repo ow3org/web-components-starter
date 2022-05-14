@@ -74,7 +74,7 @@
     "commit-msg": "npx commitlint --config ./commitlint.config.ts --edit $1"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "eslint --fix",
+    "*.{js,jsx,ts,tsx,vue}": "eslint . --fix",
     "package.json": "sort-package-json"
   },
   "config": {

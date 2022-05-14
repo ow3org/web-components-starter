@@ -21,7 +21,7 @@ export default defineConfig({
       collections: {
         'heroicon-outline': () => import('@iconify-json/heroicons-outline/icons.json').then(i => i.default as any),
         'heroicon-solid': () => import('@iconify-json/heroicons-solid/icons.json').then(i => i.default as any),
-      }
+      },
     }),
     // presetTypography(),
     // presetWebFonts({
