@@ -55,6 +55,7 @@
     "eslint": "8.15.0",
     "eslint-plugin-cypress": "2.12.1",
     "inquirer": "^8.2.4",
+    "jsdom": "^19.0.0",
     "lint-staged": "^12.4.1",
     "minimist": "^1.2.6",
     "simple-git-hooks": "^2.7.0",
