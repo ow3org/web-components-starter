@@ -33,7 +33,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
-    "@vueuse/core": "8.4.2",
+    "@vueuse/core": "8.5.0",
     "vue": "3.2.33"
   },
   "devDependencies": {
@@ -67,7 +67,7 @@
     "upath": "^2.0.1",
     "vite": "2.9.9",
     "vitest": "0.12.6",
-    "vue-tsc": "0.34.13"
+    "vue-tsc": "0.34.15"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
