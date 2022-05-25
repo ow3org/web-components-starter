@@ -27,7 +27,7 @@
     "test:e2e": "cypress open",
     "coverage": "vitest run --coverage",
     "typecheck": "vue-tsc --noEmit",
-    "preinstall": "node .scripts/check-for-pnpm.js && node .scripts/check-node-version.mjs",
+    "preinstall": "node ./.scripts/check-for-pnpm.js && node ./.scripts/check-node-version.mjs",
     "commit": "git-cz",
     "release": "npx bumpp package.json --execute 'pnpm run changelog' --commit 'chore(release): %s' --tag --push --all",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
