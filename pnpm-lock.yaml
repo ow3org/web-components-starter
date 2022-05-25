@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': 0.24.2
-  '@babel/types': 7.18.0
-  '@commitlint/cli': ^17.0.0
+  '@babel/types': 7.18.2
+  '@commitlint/cli': ^17.0.1
   '@commitlint/config-conventional': ^17.0.0
   '@commitlint/cz-commitlint': ^17.0.0
   '@iconify-json/heroicons-outline': ^1.1.1
@@ -27,7 +27,7 @@ specifiers:
   sort-package-json: ^1.57.0
   typescript: 4.7.2
   unocss: ^0.34.1
-  unplugin-auto-import: 0.8.4
+  unplugin-auto-import: 0.8.5
   unplugin-vue-components: 0.19.5
   upath: ^2.0.1
   vite: 2.9.9
@@ -41,7 +41,7 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.24.2_xztl6dhthcahlo6akmb2bmjmle
-  '@babel/types': 7.18.0
+  '@babel/types': 7.18.2
   '@commitlint/cli': 17.0.1
   '@commitlint/config-conventional': 17.0.0
   '@commitlint/cz-commitlint': 17.0.0_nlwf7yf5555jiq2ch63nbqq5xy
@@ -65,7 +65,7 @@ devDependencies:
   sort-package-json: 1.57.0
   typescript: 4.7.2
   unocss: 0.34.1_vite@2.9.9
-  unplugin-auto-import: 0.8.4_4xyn6ao5ngwbgzbefoyccvabvi
+  unplugin-auto-import: 0.8.5_4xyn6ao5ngwbgzbefoyccvabvi
   unplugin-vue-components: 0.19.5_vite@2.9.9+vue@3.2.36
   upath: 2.0.1
   vite: 2.9.9
@@ -211,10 +211,10 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.18.0
+      '@babel/types': 7.18.2
 
-  /@babel/types/7.18.0:
-    resolution: {integrity: sha512-vhAmLPAiC8j9K2GnsnLPCIH5wCrPpYIVBCWRBFDCB7Y/BXLqi/O+1RSTTM2bsmg6U/551+FCf9PNPxjABmxHTw==}
+  /@babel/types/7.18.2:
+    resolution: {integrity: sha512-0On6B8A4/+mFUto5WERt3EEuG1NznDirvwca1O8UwXQHVY8g3R7OzYgxXdOfMwLO08UrpUD/2+3Bclyq+/C94Q==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-validator-identifier': 7.16.7
@@ -5897,8 +5897,8 @@ packages:
       - vite
     dev: true
 
-  /unplugin-auto-import/0.8.4_4xyn6ao5ngwbgzbefoyccvabvi:
-    resolution: {integrity: sha512-YtUN80CzPBLK6qrzONQ0WWg191A0MMERq1nxcVSH+kUkKbs7L2QFiRv9eZrk3Rf9oe7hk0gLfYH85b1bPUG2yA==}
+  /unplugin-auto-import/0.8.5_4xyn6ao5ngwbgzbefoyccvabvi:
+    resolution: {integrity: sha512-JT43zA89fMjxtdqz+sTSkTsL9J0PNdnGmMOvcwbkpDi45yL5SU0aDCZgj0E8+qWLyQSIvvBaDBW3VuBrcc2MXg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
