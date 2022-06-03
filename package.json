@@ -37,7 +37,7 @@
     "vue": "3.2.36"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.25.0",
+    "@antfu/eslint-config": "0.25.1",
     "@babel/types": "7.18.4",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
@@ -45,7 +45,7 @@
     "@iconify-json/heroicons-outline": "^1.1.1",
     "@iconify-json/heroicons-solid": "^1.1.1",
     "@types/node": "^17.0.31",
-    "@unocss/preset-icons": "^0.37.1",
+    "@unocss/preset-icons": "^0.37.2",
     "@vitejs/plugin-vue": "2.3.3",
     "@vue/compiler-sfc": "3.2.36",
     "bumpp": "^7.1.1",
@@ -61,13 +61,13 @@
     "simple-git-hooks": "^2.8.0",
     "sort-package-json": "^1.57.0",
     "typescript": "4.7.2",
-    "unocss": "^0.37.1",
-    "unplugin-auto-import": "0.8.6",
+    "unocss": "^0.37.2",
+    "unplugin-auto-import": "0.8.7",
     "unplugin-vue-components": "0.19.6",
     "upath": "^2.0.1",
     "vite": "2.9.9",
-    "vitest": "0.13.0",
-    "vue-tsc": "0.35.2"
+    "vitest": "0.13.1",
+    "vue-tsc": "0.36.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
@@ -83,7 +83,7 @@
     }
   },
   "engines": {
-    "node": ">=v16.15.0",
+    "node": ">=v16.15.1",
     "pnpm": ">=7.1.7"
   },
   "contributors": [
