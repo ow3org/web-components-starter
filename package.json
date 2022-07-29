@@ -33,7 +33,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
-    "@vueuse/core": "8.9.1",
+    "@vueuse/core": "9.0.2",
     "vue": "3.2.37"
   },
   "devDependencies": {
