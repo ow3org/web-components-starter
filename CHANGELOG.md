@@ -1,3 +1,7 @@
+# [0.8.0](https://github.com/ow3org/web-components-library-starter/compare/v0.7.1...v0.8.0) (2022-09-13)
+
+
+
 ## [0.7.1](https://github.com/ow3org/web-components-library-starter/compare/v0.7.0...v0.7.1) (2022-05-14)
 
 
