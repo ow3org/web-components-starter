@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openweblabs/web-components-library-starter.git"
+    "url": "https://github.com/ow3org/web-components-library-starter.git"
   },
   "scripts": {
     "dev": "vite dev --open --port 3333",
@@ -80,6 +80,6 @@
     "Chris Breuer <chris@ow3.org>"
   ],
   "bugs": {
-    "url": "https://github.com/openweblabs/web-components-library-starter/issues"
+    "url": "https://github.com/ow3org/web-components-library-starter/issues"
   }
 }

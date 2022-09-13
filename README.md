@@ -40,7 +40,7 @@ When using this template, feel free to adjust it to your needs. This is simply a
 It's very easy to get started, especially if you have designed/developed Vue Single File Components before. Check out the index.html and how the `HelloWorld`-component is defined within this repo. Feel free to create any component.
 
 ```bash
-npx degit openweblabs/web-components-library-starter my-lib
+npx degit ow3org/web-components-library-starter my-lib
 cd my-lib
 pnpm i # if you don't have pnpm installed, run `npm install -g pnpm`
 
@@ -90,7 +90,7 @@ yarn test
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/openweblabs/web-components-library-starter/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/ow3org/web-components-library-starter/releases) page for more information on what has changed recently.
 
 ## 💪🏼 Contributing
 
@@ -100,7 +100,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/openweblabs/web-components-library-starter/discussions)
+[Discussions on GitHub](https://github.com/ow3org/web-components-library-starter/discussions)
 
 For casual chit-chat with others using this package:
 
