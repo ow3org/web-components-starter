@@ -37,11 +37,11 @@
     "preinstall",
     "commitlint",
     "commitlintrc",
-    "upath",
     "bumpp",
     "unocss",
     "typecheck",
     "iconify",
-    "heroicons"
+    "heroicons",
+    "windi"
   ]
 }

@@ -8,13 +8,12 @@ Before you get started, it is important to understand what a Web Component is. T
 
 ### 👩🏽‍💻 Dev Tools
 
-- [Vite 2.9](https://vitejs.dev/) - "Next Generation Frontend Tooling"
+- [Vite 3.1](https://vitejs.dev/) - "Next Generation Frontend Tooling"
 - [Vue 3.2](https://vuejs.org/) - write Web Components the same way you would write SFCs
 - [UnoCSS](https://github.com/unocss/unocss) - create your own style guide with ease (e.g. Tailwind CSS)
-- [TypeScript 4.6](https://www.typescriptlang.org/)
+- [TypeScript 4.8](https://www.typescriptlang.org/)
 - [Commitizen & commitlint](https://www.npmjs.com/package/@commitlint/cz-commitlint) - Automate git commits, versioning, and CHANGELOG generation
-- [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
-- [Cypress](https://cypress.io/) - E2E testing
+- [Vitest](https://github.com/vitest-dev/vitest) - Unit & e2e testing powered by Vite
 - [Renovate](https://renovatebot.com/) - automatic PR dependency updates
 - [GitHub Actions](https://github.com/features/actions) - automatically fixes code style issues, tags releases, and runs the test suite
 - [VS Code Extensions](./.vscode/extensions.json)

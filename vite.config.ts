@@ -1,4 +1,3 @@
-/// <reference types="vitest" />
 import { resolve } from 'path'
 import type { UserConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'

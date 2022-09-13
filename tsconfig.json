@@ -16,11 +16,6 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
-    "types": [
-      "vite/client",
-      "vue/ref-macros",
-      "node"
-    ],
     "paths": {
       "~/*": [
         "src/*"
@@ -39,7 +34,6 @@
   ],
   "exclude": [
     "dist",
-    "node_modules",
-    "cypress"
+    "node_modules"
   ]
 }
