@@ -39,7 +39,7 @@
     "@babel/types": "^7.19.3",
     "@iconify-json/heroicons-outline": "^1.1.4",
     "@iconify-json/heroicons-solid": "^1.1.5",
-    "@ow3/eslint-config": "^0.29.1",
+    "@ow3/eslint-config": "^0.30.0",
     "@types/node": "^18.7.17",
     "@unocss/preset-icons": "^0.45.26",
     "@vitejs/plugin-vue": "^3.1.0",
