@@ -56,7 +56,7 @@
     "unocss": "^0.45.26",
     "unplugin-auto-import": "^0.11.2",
     "unplugin-vue-components": "^0.22.7",
-    "vite": "^3.1.4",
+    "vite": "^4.5.0",
     "vitest": "^0.23.4",
     "vue-tsc": "^0.40.13"
   },
