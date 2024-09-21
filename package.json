@@ -42,7 +42,7 @@
     "@ow3/eslint-config": "^0.30.0",
     "@types/node": "^18.7.17",
     "@unocss/preset-icons": "^0.45.26",
-    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue": "^5.1.4",
     "@vue/compiler-sfc": "^3.2.40",
     "bumpp": "^8.2.1",
     "commitizen": "^4.2.5",
