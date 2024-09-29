@@ -12,7 +12,7 @@ env:
 jobs:
   js-cs-fixer:
     if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     name: Run JS CS Fixer
 
